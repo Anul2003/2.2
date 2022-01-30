@@ -1,0 +1,40 @@
+html {
+    background-color: gray;
+}
+
+.square {
+    background-color: rgba(0, 0, 0, 0.473);
+    width: 150px;
+    height: 150px;
+    margin: 1px;
+}
+
+#hidden {
+    visibility: hidden;
+}
+
+.first {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+.second {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    direction: rtl;
+}
+
+.third {
+    display: inline-flex;
+    direction: rtl;
+}
+
+.fifth {
+    display: inline-flex;
+}
+
+.fourth {
+    direction: ltr;
+}
